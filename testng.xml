@@ -1,0 +1,7 @@
+<suite name = "Warriors" thread-count="2" parallel ="methods" >
+<test name="Validate Footer HyperLinks">
+<classes>
+<class name ="com.veeva.nba.runner.runner"></class>	
+</classes>	
+</test>		
+</suite>

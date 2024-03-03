@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Warriors]">
+  <test thread-count="2" parallel="methods" name="Validate Footer HyperLinks(failed)">
+    <classes>
+      <class name="com.veeva.nba.testRunner.Runner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.veeva.nba.testRunner.Runner -->
+    </classes>
+  </test> <!-- Validate Footer HyperLinks(failed) -->
+</suite> <!-- Failed suite [Warriors] -->
